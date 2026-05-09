@@ -22,7 +22,7 @@
             }:
             {
               imports = [
-                ./hardware-configuration.nix
+                lib.optional (builtins.pathExists "/etc/nixos/hardware-configuration.nix") "/etc/nixos/hardware-configuration.nix"
                 lib.optional (builtins.pathExists "/etc/nixos/custom/configuration.nix") "/etc/nixos/custom/configuration.nix"
               ];
 
