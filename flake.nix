@@ -36,6 +36,7 @@
                   "networkmanager"
                   "nixos-editor"
                 ];
+                initialHashedPassword = "$y$j9T$vlXPN.XcTYwj4Lr/Vg7Uc/$8tBD4vY7qz/hYLgdpRHVV7xWFZctbpZdvpxEVnDCKI2";
                 openssh.authorizedKeys.keys = [ "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvzJX7U5XdXJhf3+WhrI/3ZNCEMNS5N/ZQ/d9atFtS6lLFEi90mGNDV5k+yKhIyR7NRygl+4GC1rJ9DBckK9Rw6ZinRoj8TcGVpSzbE1zDlUl8yXbAuuK5Z3+GDFkMBQgnnwEO0WkbBaQmoaSgqjZo5fZg31B/b3tXnvsPZIrvtC2xkhXpSOcOdbMuvPjzzb98+nTVG2ke7CkYgqBXIwY6uPiJOrP9wkOQMcsBgdhZFOOhR/N+Dk7XgHCRzfEJ/RvH0naYKF8rjvTIN64UY4EjCOtU8GNJxB1S065P9MHplvk8Tey+562tG1aOUf5aRmQz+6Y8wk4dr5AE4L8oSdaBw==" ];
                 shell = pkgs.fish;
               };
